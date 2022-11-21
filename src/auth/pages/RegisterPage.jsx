@@ -1,4 +1,5 @@
-import { Button, Grid, TextField, Typography } from "@mui/material"
+import { Button, Grid, Link as RouterLink, TextField, Typography } from "@mui/material"
+import { Link } from "react-router-dom"
 import { AuthLayout } from "../layout/AuthLayout"
 export const RegisterPage = () => {
   return (
@@ -43,6 +44,12 @@ export const RegisterPage = () => {
                         <Typography sx = {{ ml: 1}}> Back </Typography>
                     </Button>
                   </Grid>
+                </Grid>
+                <Grid container direction= ' row ' justifyContent=' end '>
+                  <Typography sx={{ mr: 1}}>Have an account already?</Typography>
+                  <Link component={ RouterLink } color= 'inherit' to = '/login'>
+                  Login
+                  </Link>
                 </Grid>
             </Grid>
           </form>
