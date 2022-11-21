@@ -5,6 +5,7 @@ import "./styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <StrictMode>
+    
     <JournalApp />
   </StrictMode>
 );

@@ -12,7 +12,7 @@ export const JournalApp = () => {
 
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-        <Route path="/*" element={<Navigate to="/auth/login" />} />
+        <Route path="/*" element={<Navigate to="/login" />} />
 
         {/* JournalApp */}
         {/* <Route path="/*" element={<JournalRoutes />} /> */}
