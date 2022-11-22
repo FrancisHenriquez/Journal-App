@@ -11,37 +11,31 @@ export const RegisterPage = () => {
               {/* email textbox */}
                 <Grid item sm={ 12 } >
                   <TextField
-                    type = " Email"
-                    placeholder="LordConfle@GMS.com"
+                    type = " text"
+                    placeholder="Name"
                     fullWidth
                   />
                 </Grid>
                 {/* password textbox */}
                 <Grid item sm={ 12 }>
                   <TextField
-                    type = " password"
-                    placeholder="Password"
+                    type = " email"
+                    placeholder="LordConfle@GMS.com"
                     fullWidth
                   />
                 </Grid>
                 <Grid item sm={ 12 }>
                   <TextField
-                    type = " password"
-                    placeholder=" re-enter Password"
+                    type = "password"
+                    placeholder = "Password"
                     fullWidth
                   />
                 </Grid>
                 <Grid container spacing={ 4 } sx = {{ mb: 2, mt: 0.2 }} >
                   {/* Login Button */}
-                  <Grid item xs={ 12 } sm={ 6 }>
+                  <Grid item xs={ 12 } sm={ 12 }>
                     <Button variant="contained" fullWidth>
                       Register
-                    </Button>
-                  </Grid>
-                  {/* Back button */}
-                  <Grid item xs={ 12 } sm={ 6 }>
-                    <Button variant="contained" fullWidth>
-                        <Typography sx = {{ ml: 1}}> Back </Typography>
                     </Button>
                   </Grid>
                 </Grid>
