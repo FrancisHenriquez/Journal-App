@@ -7,7 +7,7 @@ export const NavBar = ({ drawerWidth = 240 }) => {
     <AppBar 
         position='fixed'
         sx={{ 
-            width: { sm: `calc(100% - ${ drawerWidth }px)` },
+            width: { sm:`calc(100% - ${ drawerWidth }px)`},
             ml: { sm: `${ drawerWidth }px` }
          }}
     >
@@ -15,7 +15,7 @@ export const NavBar = ({ drawerWidth = 240 }) => {
             <IconButton
                 color='inherit'
                 edge="start"
-                sx={{ mr: 2, display: { sm: 'none' } }}
+                sx={{ mr: 1 ,  display: { sm: 'none' } }}
             >
                 <MenuOutlined />
             </IconButton>
@@ -23,7 +23,7 @@ export const NavBar = ({ drawerWidth = 240 }) => {
             <Grid container direction='row' justifyContent='space-between' alignItems='center'>
                 <Typography variant='h6' noWrap component='div'> JournalApp </Typography>
 
-                <IconButton color='error'>
+                <IconButton color='white'>
                     <LogoutOutlined />
                 </IconButton>
             </Grid>

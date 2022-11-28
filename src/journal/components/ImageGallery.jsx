@@ -4,7 +4,7 @@ import { ImageListItem, ImageList } from '@mui/material';
 export const ImageGallery = () => {
 
   return (
-    <ImageList sx={{ width: '100%', height: 500 }} cols={4} rowHeight={200}>
+    <ImageList sx={{ width: '100%', height: 500 }} cols={ 4 } rowHeight={ 200 }>
       { itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
@@ -21,16 +21,16 @@ export const ImageGallery = () => {
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Breakfast',
+    img: 'https://media1.giphy.com/media/3tJFReqsF1rIE3909Y/giphy.gif?cid=ecf05e476zgtqlej0btd9imhyecplkcb49nt1l904p9tg7eu&rid=giphy.gif&ct=g',
+    title: 'Kratos',
   },
   {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Burger',
+    img: 'https://media0.giphy.com/media/GK6KacgGJZ4OgsgCAC/giphy.gif?cid=ecf05e47h0gjtq253f8v28wix9kqweu5qujtlox7ehhekv1g&rid=giphy.gif&ct=g',
+    title: 'Atreus',
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
+    img: 'https://media2.giphy.com/media/VCGtIXKwdwWSH3IHyE/giphy.gif?cid=ecf05e479ips16s1onhzkpdyqznjtretugepppjgn5muvfus&rid=giphy.gif&ct=g',
+    title: 'Brok',
   },
   {
     img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
